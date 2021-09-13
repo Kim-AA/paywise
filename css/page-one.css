@@ -47,6 +47,11 @@ h6{
     color: white;
 }
 
+.home-info{
+    margin: 2%;
+    margin-left: 8%;
+}
+
 .table-three-columns{
     background-color: white;
     border-radius: 12px;

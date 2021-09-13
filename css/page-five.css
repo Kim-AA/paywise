@@ -7,12 +7,16 @@
     justify-content: space-between;
     color: #0A2540;
     margin: 7% 0%;
-    
 }
 
 .info-links li{
     font-size: 12px;
     padding: 2%;
+    width: 300px;
+    
+}
+.info-links ol{
+    padding: 0%;
 }
 
 .app{
@@ -24,6 +28,6 @@ footer{
     display: flex;
     justify-content: space-between;
     color: #0A2540;
-    margin-left: 5%;
     font-size: 8px;
+    width: 100%;
 }
