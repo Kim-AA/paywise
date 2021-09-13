@@ -1,0 +1,8 @@
+.where-we-are{
+    color: white;
+}
+
+.boxes-action{
+    display: flex;
+    justify-content: space-between;
+}

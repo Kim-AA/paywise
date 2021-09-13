@@ -1,0 +1,68 @@
+@import url(page-one.css);
+@import url(page-two.css);
+@import url(page-three.css);
+@import url(page-four.css);
+@import url(page-five.css);
+
+
+body{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.blue-page{
+    background-color: #0A2540;
+    padding: 5%;
+}
+
+.white-page{
+    background-color: white;
+    padding: 5%;
+}
+
+.white-title{
+    color: white;
+}
+
+.blue-title{
+    color: #0A2540;
+}
+
+.white-title span{
+    color: #80E9FF;
+}
+
+.blue-title span{
+    color: #7A74FE;
+}
+
+h1{
+    font-size: 30px;
+    margin: 0%;
+}
+
+h2{
+    font-size: 20px;
+}
+
+h3{
+    font-size: 15px;
+
+}
+
+p{
+    font-size: 10px;
+}
+
+ol{
+    list-style-type: none;
+}
+
+.bold-li{
+    font-weight: bold;
+}
+
+.two-sections{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+}

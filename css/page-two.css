@@ -1,0 +1,13 @@
+.two-columns{
+    display: flex;
+    justify-content: space-around;
+    color: #0A2540;
+}
+
+.four-rows{
+    display: block;
+}
+
+.image-page-two{
+    width: 200px;
+}

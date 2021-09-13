@@ -1,0 +1,20 @@
+
+.info-links{
+    display: flex;
+    justify-content: space-between;
+    color: #0A2540;
+    
+}
+
+.info-links li{
+    font-size: 12px;
+    padding: 2%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    color: #0A2540;
+    margin-left: 5%;
+    font-size: 8px;
+}

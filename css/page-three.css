@@ -1,0 +1,11 @@
+.three-rows p{
+    color: #0A2540;
+}
+
+.info-boxes{
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: 5%;
+    color: #0A2540;
+}
