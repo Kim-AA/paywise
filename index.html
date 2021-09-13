@@ -10,14 +10,16 @@
 <body>
     <section class="blue-page hero">
         <nav>
-            <img src="img/star.png" alt="">
-            <h6>paywise</h6>
+            <div class="icon">
+                <img src="img/star.png" alt="">
+                <h6>paywise</h6>
+            </div>
             <ol class="menu">
                 <li>How It Works</li>
                 <li>Solutions</li>
                 <li>Debt Card</li>
                 <li>Help Center</li>
-                <li>Log In</li>
+                <li class="btn-login">Log In</li>
             </ol>
         </nav>
         <div>
@@ -25,27 +27,27 @@
                 <br>on your next transfer</h1>
 
             <p class="white-p">Join over 4  million people who get real exchange rate with PayWise<br>
-            we're on average 8x cheaper than leading high street banks</p> 
+            we're on average 8x cheaper than leading high street banks.</p> 
             
             <div class="table-three-columns">
                 <div>
-                    <p>You send</p>
+                    <p>You Send</p>
                     <div>
-                        <button>£ 1.000</button>
+                        <button class="white-btn">£ 1,000</button>
                         <img src="img/united-kingdom.png" alt="flag">
                         <img src="img/arrow_down.png" alt="arrowdown">
                     </div>
                 </div>
                 <div>
-                    <p>They recieve</p>
+                    <p>They Recieve</p>
                     <div>
-                        <button>€ 1.154,47</button>
+                        <button class="white-btn">€ 1,154,47</button>
                         <img src="img/europe-union.jpg"alt="flag">
                         <img src="img/arrow_down.png" alt="arrowdown">
                     </div>
                 </div>
                 <div class="blue-btn">
-                    <button class="btn-get-started">Get started</button>
+                    <button class="btn-get-started">Get Started</button>
                 </div>
                 
             </div>
@@ -53,7 +55,7 @@
     </section>
     <section class="white-page one-row-two-columns">
         <div class="two-sections">
-            <p>-WHO WE ARE</p>
+            <p>-------- WHO WE ARE</p>
             <h1 class="blue-title"> 
                 We're on average <span>8x cheaper</span>
                 <br>than traditional banks
@@ -71,20 +73,23 @@
                     Nunc turpis mi, condimentum ut leo convallis, tincidunt placerat enim. 
                     Nullam varius, metus sed gravida porttitor, diam ligula facilisis tellus, 
                     sed sodales orci libero quis felis.Quisque iaculis, lectus quis tempor dictum, diam tortor tristique lacus, 
-                    fringilla imperdiet purus elit at eros. Nulla porttitor ante urna, eget feugiat mi laoreet ut.  
+                    fringilla imperdiet purus elit at eros. 
                 </p>
                 <p>
                     Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
                     Etiam sagittis dolor et dolor maximus, id ornare augue venenatis. 
                     Curabitur consectetur sit amet neque condimentum ultricies.
                 </p>
-                <button>Learn More</button>
+                <button class="btn-learn-more">
+                    Learn More
+                    <img src="img/arrow-right.png" alt="">
+                </button>
             </div>
         </div>
     </section>
     <section class="white-page three-rows">
         <div class="two-sections">
-            <p>-WHAT WE DO</p>
+            <p>-------- WHAT WE DO</p>
             <h1 class="blue-title">
                 A wide choice of ways to<br> <span>send money online</span>
             </h1>
@@ -92,26 +97,54 @@
         <div class="info-boxes">
             <div>
                 <div>
-                    <img src="" alt="">
+                    <img src="img/bank.PNG" alt="" class="icon-text">
                     <h3>Bank Transfer</h3>
-                    <button>Learn More</button>
+                    <p>
+                        Send a secure bank transfer directly to
+                        <br>hundreds of major banks worldwide.
+                    </p>
+                    <button class="btn-learn-more">
+                        Learn More
+                        <img src="img/arrow-right.png" alt="">
+                    </button>
                 </div>
                 <div>
-                    <img src="" alt="">
-                    <h3>Mobile Money</h3> 
-                    <button>Learn More</button>
+                    <img src="img/mobile.PNG" alt="" class="icon-text">
+                    <h3>Mobile Money</h3>
+                    <p>
+                        Cash is available to collect within minutes
+                        <br>from many locations across the country.
+                    </p>
+                    <button class="btn-learn-more">
+                        Learn More
+                        <img src="img/arrow-right.png" alt="">
+                    </button>
                 </div>
             </div>
             <div>
                 <div>
-                    <img src="" alt="">
-                    <h3>Cash Pickup</h3>
-                    <button>Learn More</button>
+                    <img src="img/cash.PNG" alt="" class="icon-text">
+                    <h3>Cash Pickup</h3> 
+                    <p>
+                        Send directly to mobile money accounts
+                        <br>across the globe, within minutes.
+                    </p>                  
+                    <button class="btn-learn-more">
+                        Learn More
+                        <img src="img/arrow-right.png" alt="">
+                    </button>
                 </div>
                 <div>
-                    <img src="" alt="">
+                    <img src="img/deliver.PNG" alt="" class="icon-text">
                     <h3>Cash Delivered</h3>
-                    <button>Learn More</button>
+                    <p>
+                        Send money directly to your recipients
+                        <br>door without any hassle.
+                    </p>
+                    <button class="btn-learn-more">
+                        Learn More
+                        <img src="img/arrow-right.png" alt="">
+                    </button>
                 </div>
 
             </div>
@@ -120,7 +153,7 @@
     </section>
     <section class="blue-page where-we-are">
         <div>
-            <p>-WHERE WE ARE</p> 
+            <p>-------- WHERE WE ARE</p> 
         
             <h1 class="white-title">
                 Join the <span>4 million users</span> worldwide
@@ -129,30 +162,38 @@
         </div>
         <div class="boxes-action">
             <div>
-                <img src="" alt="">
+                <img src="img/account.PNG" alt="" class="icon-text">
                 <h3>Create an account</h3>
                 <p>from anywhere in the world</p>
             </div>
             <div>
-                <img src="" alt="">
+                <img src="img/send.PNG" alt="" class="icon-text">
                 <h3>Send money</h3>
                 <p>to your loved ones all over the world</p>
             </div>
             <div>
-                <img src="" alt="">
+                <img src="img/relax.PNG" alt="" class="icon-text">
                 <h3>Sit back and relax</h3>
                 <p>while we do the hard thing for you</p>
             </div>
         </div>
         <div>
-            <input type="text">
-            <button>Get Started</button>
+            <input type="text" placeholder="Enter your email address">
+            <button class="btn-get-started light-blue-btn">Get Started</button>
         </div>
     </section>
-    <section class="white-page five">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+    <section class="white-page three-rows-four-columns">
+        <nav>
+            <div class="icon">
+                <img src="img/purple-star.png" alt="">
+                <h6>paywise</h6>
+            </div>
+            <div>
+                <img src="img/apple.PNG" alt="" class="app">
+                <img src="img/google.PNG" alt="" class="app">
+            </div>
+        </nav>
+        
         <div class="info-links">
             <ol>
                 <li class="bold-li">Product</li>
@@ -190,7 +231,7 @@
         </div>
         <footer>
             <p>@ Continental 2021 All Rights -reserved</p>
-            <p>Website by MEEEEEEEE</p>
+            <p>Made by Kimberly ♥</p>
         </footer>
         
         

@@ -1,13 +1,24 @@
+.two-sections{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+}
+
 .two-columns{
     display: flex;
     justify-content: space-around;
     color: #0A2540;
+    margin-top: 70px;
+    
 }
 
 .four-rows{
     display: block;
+    margin-left: 50px;
+    margin-top: 37px;
+    width: 40%;
 }
 
 .image-page-two{
-    width: 200px;
+    width: 300px;
 }

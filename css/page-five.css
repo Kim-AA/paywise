@@ -1,14 +1,23 @@
+.three-rows-four-columns h6{
+    color: #0A2540;
 
+}
 .info-links{
     display: flex;
     justify-content: space-between;
     color: #0A2540;
+    margin: 7% 0%;
     
 }
 
 .info-links li{
     font-size: 12px;
     padding: 2%;
+}
+
+.app{
+    width: 90px;
+    height: 30px;
 }
 
 footer{

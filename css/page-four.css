@@ -5,4 +5,17 @@
 .boxes-action{
     display: flex;
     justify-content: space-between;
+    margin: 7% 0%;
+}
+
+
+.light-blue-btn{
+    background-color: #80E9FF;
+    color: #0A2540;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 5px;
+    padding: 8px;
 }
